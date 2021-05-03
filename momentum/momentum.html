@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/owfont-regular.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Momentum</title>
+</head>
+<body>
+  <div class="bigDiv">
+    
+    <div class="quoteDiv">
+      <time id="time"></time>
+      </div>
+    <div class="mediumDiv">
+      <div class="timeDiv">
+      <time id="weekDay"></time>
+      <h1>
+        <span id="greeting"></span>
+        <span id="name" contenteditable="true"></span>
+      </h1>
+      <h2>What Is Your Focus For Today?</h2>
+      <h2 id="focus" contenteditable="true"></h2>
+    </div>
+    <div class="weatherDiv">
+      <h2><span>City: </span><span contenteditable="true" id="city">[Choose]</span> </h2>
+      <i id="icon" class="weather-icon owf"></i>
+      <h3 id="h3_1"><span>Temperature: </span><span id="temperature"></span></h3>
+      <h3 id="h3_2"><span>Humidity: </span><span id="humidity"></span></h3>
+      <h3 id="h3_3"><span>Wind: </span><span id="wind"></span></h3>
+    </div>
+  </div>
+      <div class="quoteDiv">
+        <p id="quote">bottom text<p>
+        <p id="author"></p>
+        <button id="changeQuote">↺</button>
+      </div>
+    
+  </div>
+  <button class="next_button" id="changeBack">↺</button>
+  <script src="js/java.js"></script>
+</body>
+</html>
